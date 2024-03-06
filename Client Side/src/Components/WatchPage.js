@@ -20,9 +20,9 @@ const WatchPage = () => {
 
       <div className=" w-full">
 
-        <div className='flex w-full'>
+        <div className='flex   w-full'>
       <div className='pl-5'>
-      <iframe width="900" height="430px" src={"https://www.youtube.com/embed/"+params.get("v")} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <iframe className='w-80 h-[350px]  md:w-[900px] md:h-[430px]'  src={"https://www.youtube.com/embed/"+params.get("v")} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div >
 
      <div className='w-full p-1  '>

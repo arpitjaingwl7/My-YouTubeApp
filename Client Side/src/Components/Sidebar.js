@@ -20,7 +20,7 @@ else{
     
 
 
-    <div className='shadow-lg p-5 w-44'>
+    <div className='absolute sm:static bg-white shadow-lg p-5 w-44'>
 
 <ul className='py-5'>
         <Link to={"/"}><li className='hover:bg-gray-200 p-2 rounded-lg'>Home </li></Link>

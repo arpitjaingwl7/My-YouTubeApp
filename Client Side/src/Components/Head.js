@@ -50,6 +50,7 @@ const getSearchSugestions=async()=>{
 
    let dispatch=useDispatch();
   return (
+   <div className='w-84 md:w-full'>
     <div className=' grid grid-flow-col  m-2 p-4  shadow'>
     
      <div className='flex col-span-1 '>
@@ -103,6 +104,7 @@ const getSearchSugestions=async()=>{
 
       
 
+    </div>
     </div>
   )
 }

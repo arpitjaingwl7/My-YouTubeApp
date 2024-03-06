@@ -22,7 +22,7 @@ getData();
 },[searchQuerry])
   return (
 
-    <div className='flex flex-wrap justify-center'>
+    <div className=' flex flex-wrap justify-center'>
 
 
      {videos.map((ele)=>{
